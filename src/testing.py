@@ -1,7 +1,7 @@
 import random
 
-A, B, C, D = True, True, True, True
+lst = [1, 2, 3, 4, 5]
 
-this = random.randint(0,1)
+index = random.randrange(len(lst))
 
-print(this)
+print(random.randrange(len(lst)))
